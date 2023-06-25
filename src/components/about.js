@@ -14,7 +14,7 @@ export default function About(){
                     in 2018, and decided that I would pursue my degree in CS after high school!
                 </p>
                 <p className='paragraph'>
-                    <i>This site is still a work in progress (:</i>
+                    <i>This site is still a work in progress (: Thanks!</i>
                 </p>
             </div>
             <div className='column'>
