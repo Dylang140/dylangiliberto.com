@@ -15,6 +15,7 @@ import {
 } from "react-router-dom";
 import WeatherProject from './components/weatherProject';
 import MessageboardProject from './components/messageboardProject';
+import ButtonGUIProject from './components/buttonGUIProject';
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
             <Route path={"/projects/"} element={<Projects/>} />
             <Route path={"/projects/weather"} element={<WeatherProject />} />
             <Route path={"/projects/messageboard"} element={<MessageboardProject />} />
+            <Route path={"/projects/buttonGUI"} element={<ButtonGUIProject />} />
           </Route>
           <Route path={"/contact"} element={<Contact/>} />
         </Routes>

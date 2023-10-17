@@ -1,5 +1,6 @@
 import ulvweatherphoto from '../image/ulvweather.png';
 import mb from '../image/mb.png';
+import buttons from '../image/buttons.png';
 import {
     BrowserRouter as Router,
     Route,
@@ -26,6 +27,15 @@ export default function Projects(){
                     <h2>Session-Based User Authernitcation</h2>
                     <h2>MySQL Database, JavaScript Backend API</h2>
                     <h3><i>HTML/CSS, JavaScript, SQL, APIs, React, NodeJS</i></h3>
+                </div>
+            </Link>
+            <br/>
+            <Link to='/projects/buttonGUI' className='blobLink'>
+                <div className='blob' style={{backgroundImage : `url(${buttons})`}}>
+                    <h1><u>Minecraft Button GUI</u></h1>
+                    <h2>Simple GUI for Minecraft's CC: Tweaked</h2>
+                    <h2>and Immersive Engineering mods</h2>
+                    <h3><i>Lua</i></h3>
                 </div>
             </Link>
         </div>
